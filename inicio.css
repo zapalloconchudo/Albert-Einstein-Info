@@ -1,0 +1,24 @@
+@import url('http://127.0.0.1:5500/biografia.html');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color :rgb(255, 238, 0);
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTK9BH0xUdhP5DeZxaqiwA1pSx0y1G4YzPwQ&s);
+    background-size: cover;
+}
+nav{
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(27, 27, 63);
+    font-size: 50px;
+    margin-top: 60px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
